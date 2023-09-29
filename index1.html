@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="display: flex;">
+    <div class="left-navbar">
+        <h3 id="font">Instagram</h3><br><br>
+
+        <div class="container">
+            <div class="column ">
+                <div class="row">
+                    <button type="button" class="btn btn-light btn-lg "><a href="index.html"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z" />
+                            </svg> Home</a></button>
+                </div>
+                <div class="row ">
+                    <button type="button" class="btn btn-light btn-lg "><svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg> Search</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-light btn-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-compass" viewBox="0 0 16 16">
+                            <path
+                                d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                            <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z" />
+                        </svg> Explore</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-light btn-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-camera-reels" viewBox="0 0 16 16">
+                            <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0z" />
+                            <path
+                                d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7zm6 8.73V7.27l-3.5 1.555v4.35l3.5 1.556zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1z" />
+                            <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                        </svg> Reels</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-light btn-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-messenger" viewBox="0 0 16 16">
+                            <path
+                                d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
+                        </svg> Messages</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-light btn-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                            <path
+                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                        </svg> Notifications</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-light btn-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-plus-square" viewBox="0 0 16 16">
+                            <path
+                                d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                        </svg> Create</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-light btn-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                            <path fill-rule="evenodd"
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                        </svg> Profile </button>
+                </div><br><br>
+                <div class="row ">
+                    <button type="button" class="btn btn-light btn-lg"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg> More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="content">
+            <div class="content1">
+                <div>
+                    <div class="img">
+                        <img src="v.jpg" class="rounded-circle" width="150" height="150">
+
+                    </div>
+                </div>
+                <div>
+                    <div style="display: flex;gap: 20px;">
+                        <h5>vinay_kumar_golla</h5>
+
+                        <div>
+                            <button type="button" class="btn btn-light">Edit Profile</button>
+                            <button type="button" class="btn btn-light">View Archive</button>
+                            <button type="button" class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-gear-wide" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8.932.727c-.243-.97-1.62-.97-1.864 0l-.071.286a.96.96 0 0 1-1.622.434l-.205-.211c-.695-.719-1.888-.03-1.613.931l.08.284a.96.96 0 0 1-1.186 1.187l-.284-.081c-.96-.275-1.65.918-.931 1.613l.211.205a.96.96 0 0 1-.434 1.622l-.286.071c-.97.243-.97 1.62 0 1.864l.286.071a.96.96 0 0 1 .434 1.622l-.211.205c-.719.695-.03 1.888.931 1.613l.284-.08a.96.96 0 0 1 1.187 1.187l-.081.283c-.275.96.918 1.65 1.613.931l.205-.211a.96.96 0 0 1 1.622.434l.071.286c.243.97 1.62.97 1.864 0l.071-.286a.96.96 0 0 1 1.622-.434l.205.211c.695.719 1.888.03 1.613-.931l-.08-.284a.96.96 0 0 1 1.187-1.187l.283.081c.96.275 1.65-.918.931-1.613l-.211-.205a.96.96 0 0 1 .434-1.622l.286-.071c.97-.243.97-1.62 0-1.864l-.286-.071a.96.96 0 0 1-.434-1.622l.211-.205c.719-.695.03-1.888-.931-1.613l-.284.08a.96.96 0 0 1-1.187-1.186l.081-.284c.275-.96-.918-1.65-1.613-.931l-.205.211a.96.96 0 0 1-1.622-.434L8.932.727zM8 12.997a4.998 4.998 0 1 1 0-9.995 4.998 4.998 0 0 1 0 9.996z" />
+                                </svg></button>
+                        </div>
+                    </div>
+                    <div style="display: flex;gap: 20px;">
+                        <h5>22 Posts</h5>
+                        <h5>328 followers</h5>
+                        <h5>658 following</h5>
+                    </div>
+                    <div>
+                        <h6>Vinay Kumar Golla</h6>
+                        <h6>Cricket Lover <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-emoji-smile-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zM4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM10 8c-.552 0-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5S10.552 8 10 8z" />
+                            </svg></h6>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <button class="btn btn-light" style="border: 1px solid lightgray;border-radius: 600px;"> <img
+                                src="data:image/jpeg;base64,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"
+                                class="rounded-circle" width="100" height="100"></button><br>Love
+                    </div>
+                    <div class="col-sm-2">
+                        <button class="btn btn-light" style="border: 1px solid lightgray;border-radius: 600px;"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor"
+                                class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path
+                                    d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                            </svg></button>
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="p1">
+            <div class="container text-center">
+                <div class="row align-items-start">
+                    <div class="col">
+                        <button type="button" class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-justify" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+                            </svg> POSTS</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path
+                                    d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" />
+                            </svg> SAVED</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-person-square" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                <path
+                                    d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z" />
+                            </svg> TAGGED</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="pk.jpg" width="300" height="300">
+            <img src="pk1.jpeg" width="300" height="300">
+            <img src="k.jpg" width="300" height="300"><br>
+            <img src="k1.jpg" width="300" height="300">
+            <img src="r.jpg" width="300" height="300">
+            <img src="r1.jpg" width="300" height="300">
+        </div>
+    </div>
+</body>
+
+</html>
